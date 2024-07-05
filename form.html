@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <li><a href="../assignment2/assign2.html"> Go To Home</a></li>
+   
+     
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    border: 2px solid rgb(11, 12, 15);
+    padding: 15px 90px;
+    margin-top: 10px;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.firstname{
+    margin-top: 20px;
+    display: flex;
+    gap: 50px;
+    margin-bottom: 30px;
+}
+.firstname p{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.firstname input{
+    width: 320px;
+    height: 60px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+.Email input{
+    width: 100%;
+    height: 60px;
+    box-shadow:rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+.Email p{
+    font-size: 16px;
+    font-weight: 600;
+}
+.text{
+    font-size: 13px;
+    color: gray;
+}
+.text span{
+ border-bottom: 3px solid grey;
+}
+button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: rgb(255, 136, 0);
+    font-size: 16px;
+    font-weight: 600;
+}
+.checkbox{
+    margin-right: 10px;
+    float:left;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+
+}
+    </style>
+    <title>Document</title>
+</head>
+<body>
+
+        <div class="container">
+        <div class="name">
+             <h1>Registeration Form</h1>
+            
+        </div>
+        <div class="firstname">
+            <div class="name">
+                <p>First Name</p>
+                <input type="text" placeholder="e.g.Zaid">
+            </div>
+            <div class="lastname">
+                <p>Last Name</p>
+                <input type="text" placeholder="e.g.Umer">
+            </div>
+        </div>
+        <div class="Email">
+            <p>Email Address</p>
+            <input type="email" placeholder="e.g.zaidumer379@gmail.com">
+        </div>
+        <div class="firstname">
+            <div class="name">
+                <p>Phone Number</p>
+                <input type="tel" placeholder="+101303327">
+            </div>
+            <div class="lastname">
+                <p>Website</p>
+                <input type="text" placeholder="e.g.https://google.com">
+            </div>
+        </div>
+        <div class="firstname">
+            <div class="name">
+                <p>Password</p>
+                <input type="password" placeholder="Your password">
+            </div>
+            <div class="lastname">
+                <p>Re-type Password</p>
+                <input type="password" placeholder="Your password">
+            </div>
+
+        </div>
+        <div class="sports">
+            <p><b>Sports</b></p> <br>
+        <input type="checkbox" name="sports" value="cricket">cricket
+        <input type="checkbox" name="sports" value="football">football
+        <input type="checkbox" name="sports" value="ludo">ludo
+        <input type="checkbox" name="sports" value="Badminton">Badminton
+        </div>   
+<br>
+<br>
+<br>
+        <div class="Gender">
+        <p><b>Gender</b></p> <br>
+         <input type="radio" name="Gender">Male
+        <input type="radio" name="Gender">Female
+
+        <br>
+        <br>
+        <br>
+        <p><b>Date of birth</b></p>
+        <input type="date">
+
+        <div class="Button">
+         <button>Submit</button>   
+        </div>
+</body>
+</html>
